@@ -1,3 +1,4 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 RegisterServerEvent('updateGangUI')
 AddEventHandler('updateGangUI', function()
   local player = source
